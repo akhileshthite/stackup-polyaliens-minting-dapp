@@ -85,6 +85,7 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  scroll-behavior: smooth;
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -127,10 +128,14 @@ table {
   font-family: "coder";
   src: local("coder"), url(font.woff) format("woff");
 }
+@font-face {
+  font-family: Suez One;
+  src: url(SuezOne-Regular.ttf);
+}
 
 body {
   margin: 0;
-  font-family: "coder", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+  font-family: "coder", "Suez One", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
     "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -157,13 +162,116 @@ body {
 }
 
 html {
-  background-color: "#4C4C4C";
+  background-color: "black";
+  scroll-behavior: smooth;
 }
 
-div {
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  -o-user-select: none;
+.logo-txt{
+  font-family: Suez One;
+}
+.header-txt {
+  font-family: Suez One;
+}
+.header-mint-txt{
+  font-family: Helvetica;
+  text-shadow: 1px 1px 2px black, 0 0 4px white, 0 0 1px white;
+}
+
+.header {
+  height: 900px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about {
+  height: 850px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 1024px) {
+  .about{
+      height: 900px;
+  }
+  .abt-txt{
+    margin-bottom: -170px;
+  }
+  .gif-hide{
+    overflow: hidden;
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .about{
+      height: 750px;
+      background-attachment:local;
+  }
+  .abt-txt{
+    margin-bottom: -120px;
+  }
+  .gif{
+    display:flex;
+    margin: 30px;
+    justify-content:center;
+    align-items:center;
+  }
+  .gif-hide{
+    overflow: hidden;
+    display: none;
+  }
+}
+
+.roadmap {
+  background-color: black;
+  height: 950px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Helvetica;
+}
+@media only screen and (max-width: 1023px) {
+  .roadmap{
+      height: 1150px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .roadmap{
+      height: 1150px;
+  }
+}
+@media only screen and (max-width: 641px) {
+  .roadmap{
+      height: 1600px;
+  }
+}
+.roadmap-txt{
+  color: #00ff15;
+}
+
+.faq {
+  background-color: black;
+  height: 1000px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Helvetica;
+}
+@media only screen and (max-width: 768px) {
+  .faq{
+      height: 1150px;
+  }
+}
+
+.footer-logo{
+  display:flex;
+  margin: 30px;
+  justify-content:center;
+  align-items:center;
+}
+.opensea-svg{
+  margin-left: -3.75rem;
 }
