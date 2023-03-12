@@ -1,6 +1,6 @@
 {
-  "CONTRACT_ADDRESS": "0x945D769C3345b27990D88cd01EeefEBF5355a2eE",
-  "SCAN_LINK": "https://mumbai.polygonscan.com/address/0x945d769c3345b27990d88cd01eeefebf5355a2ee",
+  "CONTRACT_ADDRESS": "<your-contract-address>",
+  "SCAN_LINK": "https://mumbai.polygonscan.com/address/<your-contract-address>",
   "NETWORK": {
     "NAME": "Polygon Mumbai",
     "SYMBOL": "MATIC",
@@ -13,6 +13,6 @@
   "DISPLAY_COST": 0.05,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opeansea",
-  "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/polyaliens-1",
+  "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/<your-stackup-username>-polyaliens",
   "SHOW_BACKGROUND": false
 }
