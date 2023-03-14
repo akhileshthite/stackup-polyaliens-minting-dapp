@@ -12,7 +12,7 @@
   "WEI_COST": 50000000000000000,
   "DISPLAY_COST": 0.05,
   "GAS_LIMIT": 285000,
-  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE": "Opeansea Testnets",
   "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/<your-stackup-username>-polyaliens",
   "SHOW_BACKGROUND": false
 }
